@@ -13,6 +13,7 @@
 		02696CD820B8283200724715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02696CD620B8283200724715 /* LaunchScreen.storyboard */; };
 		02696CDB20B8283200724715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02696CDA20B8283200724715 /* main.m */; };
 		02696CE920B8EAB300724715 /* UIView+GetFrameProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 02696CE720B8EAB300724715 /* UIView+GetFrameProperty.m */; };
+		18314C0020EB7D8E00A03804 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18314BFF20EB7D8E00A03804 /* Untitled.gif */; };
 		3E48BA6C20B94A6F0020263C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E48BA6B20B94A6F0020263C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		02696CDA20B8283200724715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02696CE720B8EAB300724715 /* UIView+GetFrameProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetFrameProperty.m"; sourceTree = "<group>"; };
 		02696CE820B8EAB300724715 /* UIView+GetFrameProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetFrameProperty.h"; sourceTree = "<group>"; };
+		18314BFF20EB7D8E00A03804 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		3E48BA6A20B94A6F0020263C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E48BA6B20B94A6F0020263C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +47,7 @@
 		02696CBF20B8283000724715 = {
 			isa = PBXGroup;
 			children = (
+				18314BFE20EB7D8E00A03804 /* picture */,
 				02696CCA20B8283000724715 /* PokerAnimation */,
 				02696CC920B8283000724715 /* Products */,
 			);
@@ -74,6 +77,14 @@
 				02696CDA20B8283200724715 /* main.m */,
 			);
 			path = PokerAnimation;
+			sourceTree = "<group>";
+		};
+		18314BFE20EB7D8E00A03804 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				18314BFF20EB7D8E00A03804 /* Untitled.gif */,
+			);
+			path = picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02696CD820B8283200724715 /* LaunchScreen.storyboard in Resources */,
+				18314C0020EB7D8E00A03804 /* Untitled.gif in Resources */,
 				02696CD520B8283200724715 /* Assets.xcassets in Resources */,
 				02696CD320B8283000724715 /* Main.storyboard in Resources */,
 			);
